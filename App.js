@@ -17,9 +17,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.containerMain}>
-        <Header headerText={'Header'} />
+        <Header headerText="Header"/>
         <Sales />
-        <Footer footerText={'Footer'} />
+        <Footer footerText="Footer"/>
       </View>
     );
   }
@@ -27,7 +27,7 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   containerMain: {
-    paddingTop: 20,
+    paddingTop: 10,
     flex: 1,
     backgroundColor: '#2196F3'
   }
